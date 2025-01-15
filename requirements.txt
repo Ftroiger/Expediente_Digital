@@ -1,0 +1,22 @@
+#pip~=23.2.1
+#pip=24.2
+fastapi
+uvicorn
+sqlalchemy
+httpx
+pydantic
+psycopg2
+alembic
+httpx
+pytest
+python-dotenv
+PyPDF2
+python-docx
+openpyxl
+python-multipart
+qrcode[pil]
+reportlab
+redis
+aiohttp
+
+# set URL_BASE_DE_DATOS = "postgresql://postgres:admin@host:port/db_expedientes"
