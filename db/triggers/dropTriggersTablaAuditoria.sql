@@ -1,0 +1,17 @@
+DROP TRIGGER IF EXISTS triggerDocumentoAuditoria ON "Documento";
+DROP TRIGGER IF EXISTS triggerDocumentoXMovimientoAuditoria ON "DocumentoXMovimiento";
+DROP TRIGGER IF EXISTS triggerEstadoExpedienteAuditoria ON "EstadoExpediente";
+DROP TRIGGER IF EXISTS triggerExpedienteAuditoria ON "Expediente";
+DROP TRIGGER IF EXISTS triggerExpedienteXNormaAuditoria ON "ExpedienteXNorma";
+DROP TRIGGER IF EXISTS triggerHistorialEstadoExpedienteAuditoria ON "HistorialEstadoExpediente";
+DROP TRIGGER IF EXISTS triggerMovimientoAuditoria ON "Movimiento";
+DROP TRIGGER IF EXISTS triggerNormaAuditoria ON "Norma";
+DROP TRIGGER IF EXISTS triggerPermisoAuditoria ON "Permiso";
+DROP TRIGGER IF EXISTS triggerRolAuditoria ON "Rol";
+DROP TRIGGER IF EXISTS triggerRolXPermisoAuditoria ON "RolXPermiso";
+DROP TRIGGER IF EXISTS triggerTipoExpedienteAuditoria ON "TipoExpediente";
+DROP TRIGGER IF EXISTS triggerTipoNormaAuditoria ON "TipoNorma";
+DROP TRIGGER IF EXISTS triggerUsuarioAuditoria ON "Usuario";
+DROP TRIGGER IF EXISTS triggerRolXUsuarioAuditoria ON "RolXUsuario";
+DROP TRIGGER IF EXISTS triggerNotificacionAuditoria ON "Notificacion";
+DROP TRIGGER IF EXISTS triggerTipoNotificacionAuditoria ON "TipoNotificacion";

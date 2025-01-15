@@ -1,0 +1,7 @@
+Generic single-database configuration.
+
+-- Generar migración
+alembic revision --autogenerate -m "Cambio nombre de tablas migracion"
+
+-- Para commitear
+alembic upgrade head

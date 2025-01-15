@@ -1,0 +1,15 @@
+DROP TRIGGER IF EXISTS "triggerHashTipoNorma" ON "TipoNorma";
+DROP TRIGGER IF EXISTS "triggerHashTipoExpediente" ON "TipoExpediente";
+DROP TRIGGER IF EXISTS "triggerHashPermiso" ON "Permiso";
+DROP TRIGGER IF EXISTS "triggerHashNorma" ON "Norma";
+DROP TRIGGER IF EXISTS "triggerHashMovimiento" ON "Movimiento";
+DROP TRIGGER IF EXISTS "triggerHashHistorialEstadoExpediente" ON "HistorialEstadoExpediente";
+DROP TRIGGER IF EXISTS "triggerHashExpedienteXNorma" ON "ExpedienteXNorma";
+DROP TRIGGER IF EXISTS "triggerHashExpediente" ON "Expediente";
+DROP TRIGGER IF EXISTS "triggerHashEstadoExpediente" ON "EstadoExpediente";
+DROP TRIGGER IF EXISTS "triggerHashDocumentoXMovimiento" ON "DocumentoXMovimiento";
+DROP TRIGGER IF EXISTS "triggerHashDocumento" ON "Documento";
+DROP TRIGGER IF EXISTS "triggerHashUsuario" ON "Usuario";
+DROP TRIGGER IF EXISTS "triggerHashRolXUsuario" ON "RolXUsuario";
+DROP TRIGGER IF EXISTS "triggerHashRolXPermiso" ON "RolXPermiso";
+DROP TRIGGER IF EXISTS "triggerHashRol" ON "Rol";
